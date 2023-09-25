@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Site Dalila</title>
+  </head>
+  <body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+      <header>
+        <h1><img class="imgDalila" src="img/dalilaTitulo.svg" alt="" /></h1>
+        <nav id="nav">
+          <a href="#inicio" onclick="seleccionar()">Inicio</a>
+          <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+          <a href="#servicios" onclick="seleccionar()">Serviços</a>
+          <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+          <a href="#galeria" onclick="seleccionar()">Galería</a>
+          <a href="#equipo" onclick="seleccionar()">Equipe</a>
+          <a href="#contacto" onclick="seleccionar()">Contato</a>
+        </nav>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <!-- Icono del menu responsive -->
+        <div
+          id="icono-nav"
+          class="nav-responsive"
+          onclick="mostrarOcultarMenu()"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-seccion">
+        <div class="info">
+          <h2>HAZ QUE <span class="txtColor">OCURRA</span></h2>
+          <p>Triunfar es más facil de lo que piensas!</p>
+          <a href="#nosotros" class="btn-mas">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </a>
+        </div>
+        <div class="opciones">
+          <div class="opcion">01.ESTÉTICA</div>
+          <div class="opcion">02.PÓS CIRÚRGICO</div>
+          <div class="opcion">03.SAÚDE</div>
+          <div class="opcion">04.</div>
+          <div class="opcion">05.YOGA</div>
+          <div class="opcion">06.CARDIO</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+      <div class="fila">
+        <div class="col">
+          <img src="img/nosotros.png" alt="" />
+        </div>
+        <div class="col">
+          <div class="contenedor-titulo">
+            <div class="numero">01</div>
+            <div class="info">
+              <span class="frase">A MELHOR EXPERIÊNCIA</span>
+              <h2>NOSOTROS</h2>
+            </div>
+          </div>
+          <p class="p-especial">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur necessitatibus quod provident libero, nam corrupti,
+            adipisci ea inventore cum aliquid asperiores pariatur harum sunt.
+            Tempore expedita atque quos ipsum nisi.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="fila-nosotros">
+        <div class="col1">
+          <span class="frase">
+            <span class="txtColor">ENTRENA</span> DIFERENTE
+          </span>
+          <h2>ENTRENA <span class="txtColor">GRATIS</span> HOY!</h2>
+        </div>
+        <div class="col2">
+          <button>PASE LIBRE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+      <div class="contenido-seccion">
+        <div class="fila">
+          <div class="col">
+            <div class="contenedor-titulo">
+              <div class="numero">02</div>
+              <div class="info">
+                <span class="frase">A MELHOR EXPERIÊNCIA</span>
+                <h2>SERVIÇOS</h2>
+              </div>
+            </div>
+            <p class="p-especial">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur necessitatibus quod provident libero, nam corrupti,
+              adipisci ea inventore cum aliquid asperiores pariatur harum sunt.
+              Tempore expedita atque quos ipsum nisi.
+            </p>
+          </div>
+          <div class="col">
+            <img src="img/servicios.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="info-servicios">
+        <table>
+          <tr>
+            <td>
+              <i class="fa-solid fa-person-walking"></i>
+              <h3><span class="txtColor">Clases </span> de Fitness</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+            <td>
+              <i class="fa-solid fa-dumbbell"></i>
+              <h3><span class="txtColor">Clases </span> de Crossfit</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+            <td>
+              <i class="fa-solid fa-mitten"></i>
+              <h3><span class="txtColor">Clases </span> de Boxeo</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa-solid fa-clock"></i>
+              <h3><span class="txtColor">Clases </span> de Enduro</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+            <td>
+              <i class="fa-solid fa-heart-circle-bolt"></i>
+              <h3><span class="txtColor">Clases </span> de Cardio</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+            <td>
+              <i class="fa-solid fa-bicycle"></i>
+              <h3><span class="txtColor">Clases </span> de Ciclismo</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Facilis.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+      <div class="fila">
+        <div class="col">
+          <img src="img/nosotros.png" alt="" />
+        </div>
+        <div class="col">
+          <div class="contenedor-titulo">
+            <div class="numero">03</div>
+            <div class="info">
+              <span class="frase">A MELHOR EXPERIÊNCIA</span>
+              <h2>COMODIDADES</h2>
+            </div>
+          </div>
+          <p class="p-especial">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <ul>
+            <li>
+              <span>PILETA</span> - Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Eos tenetur, nam cumque adipisci ratione
+              obcaecati impedit inventore eligendi
+            </li>
+            <li>
+              <span>WIFI GRATIS</span> - Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Eos tenetur, nam cumque adipisci ratione
+              obcaecati impedit inventore
+            </li>
+            <li>
+              <span>ESTACIONAMIENTO GRATIS</span> - Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Eos tenetur, nam cumque adipisci
+              ratione obcaecati impedit?
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+      <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+          <div class="numero">04</div>
+          <div class="info">
+            <span class="frase">A MELHOR EXPERIÊNCIA</span>
+            <h2>GALERIA</h2>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col">
+            <img src="img/img1.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/img5.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/img3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col">
+            <img src="img/img5.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/img3.jpg" alt="" />
+          </div>
+          <div class="col">
+            <img src="img/img1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+      <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+          <div class="numero">05</div>
+          <div class="info">
+            <span class="frase">A MELHOR EXPERIÊNCIA</span>
+            <h2>EQUIPO</h2>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col">
+            <img src="img/e1.png" alt="" />
+            <div class="info">
+              <h2>Dr Marcos</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <img src="img/e2.png" alt="" />
+            <div class="info">
+              <h2>Dra Ana</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <img src="img/e3.png" alt="" />
+            <div class="info">
+              <h2>Dr João</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+      <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+          <div class="numero">06</div>
+          <div class="info">
+            <span class="frase">A MELHOR EXPERIÊNCIA</span>
+            <h2>CONTACTO</h2>
+          </div>
+        </div>
+        </div>
+        <div class="mapas">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26243936.03069985!2d-50.08241082437685!3d-19.35417889771003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb857603fd9399d%3A0xb44c9166b2c1b315!2sGuarapari%2C%20Microrregi%C3%B3n%20de%20Guarapari%20-%20Esp%C3%ADrito%20Santo!5e0!3m2!1ses-419!2sbr!4v1695321882183!5m2!1ses-419!2sbr" width="500" height="400" style="border:2px;border-radius:5px ;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        <div class="fila-datos">
+          <div class="col">
+            <i class="fa-solid fa-location-dot"></i>
+            Avenida Morro 255-Cnel Frabriciano- MG 
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-phone"></i>
+            2664 - 456788
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-clock"></i>
+            SEGUNDA a SABADO, 8:00h - 24:00h
+          </div>
+         </div>
+        
+      </div>
+    </section>
+    <footer>
+      <div class="info">
+        <p>
+          2023 - <img src="img/logo.svg" alt="" class="logo">Todos los derechos
+          reservados
+        </p>
+        <div class="redes">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
