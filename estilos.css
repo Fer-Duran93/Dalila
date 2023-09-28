@@ -34,6 +34,7 @@ body {
 }
 .imgDalila {
   width: 8em;
+  margin:0 auto;
 }
 .txtColor {
   color: #7a1a3f;
@@ -214,7 +215,7 @@ body {
 }
 .servicios .contenido-seccion {
   background: linear-gradient(rgba(39, 1, 27, 0.6), rgba(78, 0, 31, 0.7)),
-    url(img/fondo-servicios.jpg);
+    url(img/estetica\ fondo.jpg);
   background-size: cover;
   background-position: center center;
   margin: auto;
@@ -296,7 +297,7 @@ body {
   max-width: 1100px;
   margin: auto;
   background-color: #e7e0d6;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 .comodidades .fila {
   display: flex;
@@ -351,7 +352,7 @@ body {
 .galeria {
   color: #fff;
   background: linear-gradient(rgba(39, 1, 27, 0.6), rgba(78, 0, 31, 0.7)),
-    url(img/fondo-galeria.jpg);
+    url(img/dondoejemplo.jpg);
   background-size: cover;
   background-position: center center;
   padding: 100px 0;
@@ -392,9 +393,6 @@ body {
   padding: 2px;
   width: 100%;
   height: 100%;
-  
-  
-   
 }
 /* *********** */
 /* ENTRENADORES */
@@ -427,18 +425,20 @@ body {
   font-size: 3rem;
 }
 .equipo .fila {
-  margin: 50px 0;
+  margin: 40px 0;
   display: flex;
   justify-content: space-around;
 }
 .equipo .fila .col {
-  width: 25%;
+  width:30%;
 }
 .equipo .fila .col img {
+  width:auto ;
   max-height: 400px;
   display: block;
   margin: auto;
 }
+
 .equipo .fila .info {
   border: 5px solid #1f283e;
   text-align: center;
@@ -447,6 +447,7 @@ body {
   background: linear-gradient(#d32071c7, #7a1a3f);
   color: #fff;
 }
+
 .equipo .fila .info p {
   margin: 20px 0;
 }
@@ -462,8 +463,8 @@ body {
 /* *********** */
 .contacto {
   color: #fff;
-  background: linear-gradient(#787569b9, #2d2d2c9d), url(img/fondoimaDalila.jpg);
-  background-size: 450px;
+  background: linear-gradient(#787569b9, #2d2d2c9d), url(img/imgsite1.jpg);
+  background-size: cover;
   background-position: center center;
   padding: 100px 10px;
 }
@@ -582,7 +583,7 @@ footer .info a {
 /* *********** */
 /* RESPONSIVE */
 /* *********** */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   header nav {
     position: initial;
     display: none;
